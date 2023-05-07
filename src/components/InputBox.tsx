@@ -4,7 +4,7 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { db } from "src/lib/firebase";
 import { collection, doc, setDoc, serverTimestamp } from "@firebase/firestore";
 
-export default function Home() {
+export default function InputBox() {
   const [effect, setEffect] = useState(false);
   const [data, setData] = useState("");
   const [loading, setLoading] = useState(false);
@@ -13,8 +13,6 @@ export default function Home() {
     if (loading) return;
     setLoading(true);
     const rId: string = `${Math.floor(Math.random() * (100000 - 1)) + 1}`;
-    const time: string = new Date().getTime();
-    console.log("timeは" + time + "です");
     // Add a new document with a generated id.
     const docRef = doc(db, "comments", rId);
     const sendData = {
