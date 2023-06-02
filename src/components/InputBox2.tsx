@@ -50,8 +50,8 @@ export default function InputBox() {
               onChange={(e) => {
                 setData(e.target.value);
               }}
-              placeholder="文化祭の感想を入力してね！"
-              className="scale-150 block w-[800px] p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="けやき祭の感想を入力してね！"
+              className="block w-[800px] p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
           </div>
           <div className="w-full scale-150 text-4xl mt-24 flex flex-row-reverse ">
