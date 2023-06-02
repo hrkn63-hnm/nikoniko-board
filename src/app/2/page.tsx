@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import InputBox from "src/components/InputBox";
+import InputBox2 from "src/components/InputBox2";
 import { useEffect, useState } from "react";
 import React from "react";
 // import Input from "./Input";
@@ -262,10 +262,10 @@ export default function Home() {
         </div>
         <div className="-z-10">
           <div className="h-screen w-screen flex flex-col justify-center items-center">
-            <p className="text-[160px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <p className="text-[120px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               文化祭コメント掲示板
             </p>
-            <InputBox />
+            <InputBox2 />
           </div>
         </div>
       </div>
